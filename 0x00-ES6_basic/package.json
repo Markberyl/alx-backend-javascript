@@ -1,20 +1,22 @@
 {
-  "name": "alx-backend-javascript",
+  "name": "0x00-ES6_basic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "basic javascript project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "dev":"node 0-main.js",  
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Markberyl/alx-backend-javascript.git"
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^27.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "jest": "^27.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Markberyl/alx-backend-javascript/issues"
-  },
-  "homepage": "https://github.com/Markberyl/alx-backend-javascript#readme"
+  "jest": {
+    "preset": "babel-jest"
+  }
 }
+
